@@ -69,6 +69,7 @@ optional arguments:
 non Deterministic output!
 
 <img width="506" height="716" alt="image" src="https://github.com/user-attachments/assets/62d7c63a-345b-4c52-9d3a-9df77031135a" />
+
 ```
 pratdiff <(cat cache_prlib_dump_raw_cupy/*txt|sort) <(cat cache_prlib_dump_raw/*txt|sort) --context 0
 ```

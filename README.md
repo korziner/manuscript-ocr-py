@@ -1,6 +1,10 @@
 # manuscript-ocr-py
 Минималистичная CLI-распознавалка моделями konstantinkozhin/manuscript-ocr
 
+py 3.14 tested
+<img width="1341" height="740" alt="image" src="https://github.com/user-attachments/assets/51b72a7a-3835-4170-9d86-9193507cfee8" />
+
+💥 OOM at batch 147. New safe max = 102:
 ```
 2026-06-07 07:26:25,438 INFO 📈 Increasing batch size: 103 → 123
 2026-06-07 07:26:25,439 INFO [Указы_Сибирской_губернской_канцелярии_выписки_из_журналов_воеводской_канцелярии_рапорта_офицеров_о_с_p288_cb65.jpg] TRBA: 4.149s, final_batch=103, reductions=0, fallback=False
